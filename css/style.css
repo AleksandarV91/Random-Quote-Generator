@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #1f1d22;
+  background-color: #f8b562;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 5rem;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  background-color: #d47e67;
+  padding: 3rem;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+.quote-area {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.quote-btn {
+  width: 245px;
+  height: 2.5rem;
+  margin: auto;
+  border: 2.5px solid #553a4c;
+  background-color: #985763;
+  border-radius: 1rem;
+  font-weight: 700;
+  color: #f9f871;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  padding: 0.3rem;
+}
+
+.quote-btn:hover {
+  cursor: pointer;
+  background-color: #553a4c;
+}
